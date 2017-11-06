@@ -1,5 +1,5 @@
 <?php
-    $a = $_POST['t'];
+    $a = $_GET['t'];
 	$conn = new mysqli('localhost','root','123456','translate');  
 	if(!$conn){  
 	    die("error:".mysqli_connect_error());  
